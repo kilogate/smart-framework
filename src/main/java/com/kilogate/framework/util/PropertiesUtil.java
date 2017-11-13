@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * 属性工具类
+ * 属性操作工具类
  *
  * @author fengquanwei
  * @create 2017/11/11 17:03
