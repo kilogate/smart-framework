@@ -16,7 +16,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 /**
- * 类操作工具类
+ * 类工具类
  *
  * @author fengquanwei
  * @create 2017/11/12 20:39
