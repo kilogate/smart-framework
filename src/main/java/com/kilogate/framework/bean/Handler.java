@@ -3,7 +3,7 @@ package com.kilogate.framework.bean;
 import java.lang.reflect.Method;
 
 /**
- * 封装 Action 信息
+ * Action（请求处理器）
  *
  * @author fengquanwei
  * @create 2017/11/17 19:56
