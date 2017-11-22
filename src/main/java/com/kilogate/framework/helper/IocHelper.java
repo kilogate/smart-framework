@@ -1,4 +1,4 @@
-package com.kilogate.framework.help;
+package com.kilogate.framework.helper;
 
 import com.kilogate.framework.annotation.Inject;
 import com.kilogate.framework.util.ReflectionUtil;
@@ -8,7 +8,6 @@ import java.util.Map;
 
 /**
  * 依赖注入助手类
- * TODO 需要找个地方加载找个类
  *
  * @author fengquanwei
  * @create 2017/11/17 19:36

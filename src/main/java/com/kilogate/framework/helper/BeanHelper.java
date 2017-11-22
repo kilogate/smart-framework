@@ -1,4 +1,4 @@
-package com.kilogate.framework.help;
+package com.kilogate.framework.helper;
 
 import com.kilogate.framework.util.ReflectionUtil;
 

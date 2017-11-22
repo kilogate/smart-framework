@@ -1,4 +1,4 @@
-package com.kilogate.framework.help;
+package com.kilogate.framework.helper;
 
 import com.kilogate.framework.annotation.Controller;
 import com.kilogate.framework.annotation.Service;

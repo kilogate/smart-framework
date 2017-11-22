@@ -1,9 +1,9 @@
 package com.kilogate.framework;
 
-import com.kilogate.framework.help.BeanHelper;
-import com.kilogate.framework.help.ClassHelper;
-import com.kilogate.framework.help.ControllerHelper;
-import com.kilogate.framework.help.IocHelper;
+import com.kilogate.framework.helper.BeanHelper;
+import com.kilogate.framework.helper.ClassHelper;
+import com.kilogate.framework.helper.ControllerHelper;
+import com.kilogate.framework.helper.IocHelper;
 import com.kilogate.framework.util.ClassUtil;
 
 /**

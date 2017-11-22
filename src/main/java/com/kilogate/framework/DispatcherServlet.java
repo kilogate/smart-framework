@@ -4,9 +4,9 @@ import com.kilogate.framework.bean.Data;
 import com.kilogate.framework.bean.Handler;
 import com.kilogate.framework.bean.Param;
 import com.kilogate.framework.bean.View;
-import com.kilogate.framework.help.BeanHelper;
-import com.kilogate.framework.help.ConfigHelper;
-import com.kilogate.framework.help.ControllerHelper;
+import com.kilogate.framework.helper.BeanHelper;
+import com.kilogate.framework.helper.ConfigHelper;
+import com.kilogate.framework.helper.ControllerHelper;
 import com.kilogate.framework.util.CodecUtil;
 import com.kilogate.framework.util.JsonUtil;
 import com.kilogate.framework.util.ReflectionUtil;
@@ -44,11 +44,11 @@ public class DispatcherServlet extends HttpServlet {
         // 获取 ServletContext 对象（用于注册 Servlet）
         ServletContext servletContext = servletConfig.getServletContext();
 
-        // 注册处理 JSP 的 Servlet
+        // 注册处理 JSP 的 Servlet TODO 干嘛用的？
         ServletRegistration jspServlet = servletContext.getServletRegistration("jsp");
         jspServlet.addMapping(ConfigHelper.getAppJspPath() + "*");
 
-        // 注册处理静态资源的默认 Servlet
+        // 注册处理静态资源的默认 Servlet TODO 干嘛用的？
         ServletRegistration defaultServlet = servletContext.getServletRegistration("default");
         defaultServlet.addMapping(ConfigHelper.getAppAssetPath() + "*");
     }
